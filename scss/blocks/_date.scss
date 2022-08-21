@@ -1,0 +1,50 @@
+.date{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(242, 239, 230, 1);
+    padding: 3rem 0;
+
+    & p{
+        font-family: Arial, sans-serif;
+    }
+    &__box{
+        width: 30%;
+    }
+    &__box h2{
+        color: rgba(22, 58, 36, 1);
+        font-size: 45px;
+        font-weight: 600;
+    }
+    &__box p{
+        color: rgba(22, 58, 36, 1);
+        font-size: 18px;
+    }
+
+    & form{
+        width: 50%;
+
+        & input{
+            width: 60%;
+            font-size: 20px;
+            outline: none;
+            background: #FFFFFF;
+            border: 1px solid #F2EFE6;
+            border-radius: 25px;
+            padding: 12px 24px;
+        }
+        & button{
+            background-color: rgba(25, 140, 54, 1);
+            color: whitesmoke;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 25px;
+            border: none;
+            padding: 15px 25px ;
+            margin-left: -3rem;
+        }
+        & p a{
+            color:rgba(25, 140, 54, 1) ;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.interest{
+    text-align: center;
+
+    &__title{
+        color: rgba(22, 58, 36, 1);
+        font-size: 50px;
+        font-weight: 600;
+    }
+    &__text{
+        color: rgba(22, 58, 36, 1);
+        font-size: 19px;
+        font-weight: 500;
+    }
+    
+    &__card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 45px;
+
+        &__box{
+            width: 20%;
+            background-color: rgba(251, 250, 247, 1);
+            box-shadow: 5px 5px 20px #E9E4D5;
+            border-radius: 15px;
+            line-height: 36px;
+            text-align: start;
+            padding: 3rem 2rem;
+        }
+        &__box h3{
+            color: rgba(22, 58, 36, 1);
+            font-weight: 600;
+            font-size: 28px;
+        }
+        &__box li{
+            color: rgba(22, 58, 36, 1);
+        }
+        &__box:hover{
+            height: 390px;
+        }
+    }
+}

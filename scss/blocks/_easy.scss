@@ -1,0 +1,47 @@
+.easy{
+    text-align: center;
+    background-color: rgba(242, 239, 230, 1);
+    padding: 7rem 0;
+    margin: 7rem 0;
+
+    & h2{
+        color: rgba(22, 58, 36, 1);
+        font-size: 48px;
+        font-weight: 600;
+    }
+    &__text{
+        color: rgba(22, 58, 36, 1);
+        font-size: 19px;
+        font-family: Arial, sans-serif;
+        line-height: 0;
+    }
+
+    &__card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &__box{
+            width: 20%;
+            font-family: Arial, sans-serif;
+        }
+        &__box p{
+            color: rgba(22, 58, 36, 1);
+            font-size: 20px;
+        }
+        &__box h3{
+            color: rgba(22, 58, 36, 1);
+            font-size: 30px;
+        }
+    }
+
+    &__btn{
+        background-color: rgba(25, 140, 54, 1);
+        color: whitesmoke;
+        text-decoration: none;
+        font-size: 18px;
+        border-radius: 25px;
+        border: none;
+        padding: 15px 25px ;
+    }
+}

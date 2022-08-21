@@ -1,0 +1,23 @@
+footer{
+    padding: 2rem 4rem;
+
+    & div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        & h3{
+            color: rgba(22, 58, 36, 1);
+            font-size: 28px;
+        }
+        & div{
+            display: flex;
+            gap: 20px;
+
+            & a{
+                text-decoration: none;
+                color: rgba(25, 140, 54, 1);
+            }
+        }
+    }
+}

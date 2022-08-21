@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(22, 58, 36, 1);
+    padding: 0 5rem;
+
+    &__logo{
+        text-decoration: none;
+    }
+    &__nav{
+        display: flex;
+        align-items: center;
+        gap: 22px;
+
+        &__itm{
+            text-decoration: none;
+            color: whitesmoke;
+        }
+        &__btn{
+            text-decoration: none;
+            background-color: #198C36;
+            color: whitesmoke;
+            border-radius: 25px;
+            padding: 15px 20px;
+        }
+        &__btn:active{
+            opacity: 0.5;
+        }
+    }
+}

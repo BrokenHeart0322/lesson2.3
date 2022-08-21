@@ -1,0 +1,20 @@
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 5rem;
+    background-color: rgba(22, 58, 36, 1);
+
+    &__box{
+        width: 30%;
+        
+        & h1{
+            color: whitesmoke;
+            font-size: 48px;
+            font-weight: 600;
+        }
+        &__text{
+            color: whitesmoke;
+        }
+    }
+}
